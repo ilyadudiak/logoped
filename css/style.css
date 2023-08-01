@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-color1: #666666;
+    --white: #ffffff;
+    --dark-purple: #323663;
+    --baloo: 'Baloo 2', cursive;
+    --light-gray: #757575;
+    --light-pink: #fc6c93;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+.main {
+    min-height: 2950px;
+    background: url(../img/first-bg1.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    font-family: var(--baloo);
+    padding-top: 30px;
+}
+
+
+.header {
+    position: sticky;
+    top: 0px;
+    font-family: var();
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 92px;
+    padding: 0 32px;
+    max-width: 1520px;
+    margin: 0 auto;
+    background-color: var(--white);
+    border-radius: 10px;
+    width: 100%;
+}
+
+.header-items {
+    display: flex;
+    gap: 5px;
+}
+
+.header-items a {
+    color: var(--dark-purple);
+    padding: 2px 25px;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s ease;
+    border-radius: 6px;
+}
+
+.header-items a:hover {
+    background-color: var(--light-pink);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px -4px 0px 0px inset;
+
+    color: var(--white);
+}
+
+.header-right {
+    display: flex;
+    gap: 10px;
+}
+
+.header-right a {
+    color: var(--light-pink);
+    font-size: 16px;
+}
+
+.header-right p {
+    color: var(--dark-purple);
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.header-righ .header-right__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-info {
+    width: 100%;
+    max-width: 1520px;
+
+    margin: 0 auto;
+    margin-top: 230px;
+}
+
+.main-info h1 {
+    color: var(--dark-purple);
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.main-info p {
+    color: var(--light-gray);
+    line-height: 30px;
+    max-width: 466px;
+    margin-top: 16px;
+}
+
+.main-info a {
+    display: block;
+    margin-top: 34px;
+
+    background-color: #46c9f3;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px -4px 0px 0px inset;
+    border-radius: 6px;
+    padding: 15px 30px;
+    width: fit-content;
+
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 1px;
+
+    transition: .3s ease;
+}
+
+.main-info a:hover {
+    background: var(--white);
+    color: #ee516d;
+    box-shadow: rgba(0, 0, 0, 0) 0px -4px 0px 0px inset;
+}
